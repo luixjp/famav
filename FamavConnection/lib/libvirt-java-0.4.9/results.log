@@ -1,0 +1,17 @@
+Buildfile: /home/veillard/libvirt-java/build.xml
+
+init:
+     [copy] Copying 1 file to /home/veillard/libvirt-java
+
+build:
+    [javac] /home/veillard/libvirt-java/build.xml:42: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] /home/veillard/libvirt-java/build.xml:43: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+test:
+    [junit] Running org.libvirt.TestJavaBindings
+    [junit] libvir: Test error : Requested operation is not valid: Network 'createst' is already running
+    [junit] I/O warning : failed to load external entity "/someUrl"
+    [junit] Tests run: 8, Failures: 0, Errors: 0, Time elapsed: 0.992 sec
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
